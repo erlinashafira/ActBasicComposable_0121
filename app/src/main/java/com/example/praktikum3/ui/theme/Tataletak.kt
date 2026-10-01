@@ -10,6 +10,8 @@ import androidx.compose.foundation.Spacer
 import androidx.compose.foundation.fillMaxHeight
 import androidx.compose.foundation.fillMaxWidth
 import androidx.compose.foundation.height
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -33,7 +35,7 @@ fun TataletakColumn(modifier: Modifier) {
         Text(text = "Komponen1")
         Text(text = "Komponen2")
         Text(text = "Komponen3")
-        Text(text = "Komponen2")
+        Text(text = "Komponen4")
     }
 }
 
@@ -44,7 +46,7 @@ fun TataletakRow(modifier : Modifier) {
         Text(text = "Komponen1")
         Text(text = "Komponen2")
         Text(text = "Komponen3")
-        Text(text = "Komponen2")
+        Text(text = "Komponen4")
     }
 }
 
@@ -59,6 +61,28 @@ fun TataletakBox(modifier: Modifier) {
         Text(text = "Row 1")
         Text(text = "Box 2")
         Text(text = "Column 2")
+    }
+}
+
+@Composable
+fun TataletakColumnRow(modifier : Modifier) {
+    Column() {
+        Row(
+            modifier = modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+            Text(text = "Komponen1Baris1")
+            Text(text = "Komponen2Baris2")
+            Text(text = "Komponen3Baris3")
+        }
+        Row(
+            modifier = modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+            Text(text = "Komponen1Baris1")
+            Text(text = "Komponen2Baris2")
+            Text(text = "Komponen3Baris3")
+        }
     }
 }
 
