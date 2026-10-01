@@ -97,7 +97,7 @@ fun TataletakRowColumn(modifier : Modifier) {
 }
 
 @Composable
-fun tataletakBoxColumnRow(modifier: Modifier) {
+fun TataletakBoxColumnRow(modifier: Modifier) {
     val gambar = painterResource(id = R.drawable.notasibalok)
     Column() {
         Box(
