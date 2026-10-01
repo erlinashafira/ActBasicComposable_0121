@@ -13,6 +13,7 @@ import androidx.compose.foundation.height
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -25,6 +26,16 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+@Composable
+fun TataletakColumn(modifier: Modifier) {
+    Row(modifier = modifier.padding(top = 20.dp, start = 20.dp, end = 20.dp)) {
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen2")
+    }
+}
 
 @Composable
 fun TataletakRow(modifier : Modifier) {
