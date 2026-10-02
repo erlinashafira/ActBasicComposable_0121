@@ -1,5 +1,6 @@
 package com.example.praktikum3
 
+import com.example.praktikum3.ui.theme.TugasLogin
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Praktikum3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataletakBoxColumnRow(
+                    TugasLogin(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
