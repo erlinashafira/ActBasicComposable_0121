@@ -79,6 +79,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color.Black,
                 modifier = Modifier.padding(bottom = 16.dp)
             )
+            Image(
+                painter = painterResource(id = R.drawable.logo_besar),
+                contentDescription = "Gambar Bawah",
+                modifier = Modifier
+                    .size(140.dp)
+                    .clip(CircleShape)
+                    .background(Color.White),
+                contentScale = ContentScale.Crop
+            )
         }
     }
 }
