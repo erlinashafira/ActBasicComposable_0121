@@ -44,7 +44,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             Text(
                 text = "Ini adalah halaman login!",
                 fontSize = 14.sp,
-                color = Color.Black,
+                color = Color.Red,
                 modifier = Modifier.padding(bottom = 14.dp)
             )
             Image(
@@ -69,14 +69,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 text = "Erlina Shafira Indriani",
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Black,
+                color = Color.Red,
                 modifier = Modifier.padding(bottom = 4.dp)
             )
             Text(
                 text = "20240140121",
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Black,
+                color = Color.Red,
                 modifier = Modifier.padding(bottom = 16.dp)
             )
             Image(
