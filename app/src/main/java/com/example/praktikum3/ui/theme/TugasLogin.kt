@@ -47,6 +47,18 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color.Black,
                 modifier = Modifier.padding(bottom = 14.dp)
             )
+            Image(
+                painter = painterResource(id = R.drawable.logo_kecil),
+                contentDescription = "Logo Atas",
+                modifier = Modifier
+                    .size(90.dp)
+                    .clip(CircleShape)
+                    .background(Color.White)
+                    .padding(4.dp),
+                contentScale = ContentScale.Crop
+            )
+
+            Spacer(modifier = Modifier.height(14.dp))
         }
     }
 }
