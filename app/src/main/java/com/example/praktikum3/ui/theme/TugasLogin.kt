@@ -65,6 +65,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
             )
+            Text(
+                text = "Erlina Shafira Indriani",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black,
+                modifier = Modifier.padding(bottom = 4.dp)
+            )
         }
     }
 }
