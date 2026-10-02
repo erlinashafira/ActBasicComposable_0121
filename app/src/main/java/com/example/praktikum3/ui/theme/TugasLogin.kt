@@ -72,6 +72,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 color = Color.Black,
                 modifier = Modifier.padding(bottom = 4.dp)
             )
+            Text(
+                text = "20240140121",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black,
+                modifier = Modifier.padding(bottom = 16.dp)
+            )
         }
     }
 }
